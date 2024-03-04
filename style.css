@@ -1,0 +1,117 @@
+body {
+    background-color: #131313;
+    color: #FFFFFF;
+}
+
+.main__blog {
+    display: flex;
+    padding: 107px;
+    gap: 50px;
+}
+
+.header_menu {
+    display: flex;
+    padding-bottom: 45px;
+    gap: 60px;
+}
+
+.header_menu a {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Yeseva One";
+    line-height: 20px;
+}
+
+.main_blog__images {
+    width: 679px;
+    height: 480px;
+}
+.main_blog__text{
+    position: relative;
+}
+.main_blog__text h1 {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 27px;
+    font-family: "Yeseva One";
+    line-height: 38px;
+    
+}
+
+.main_blog__text p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    line-height: 27px;
+}
+
+.main_blog__text2 h1 {
+    color: #E3B873;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Yeseva One";
+    line-height: 25px;
+}
+
+.main_blog__text2 p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    line-height: 22px;
+}
+
+.main_blog__text2 ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 42px;
+    padding: 0px;
+    gap: 25px;
+    flex: 0 0 100%;
+}
+
+.main_blog__text2 li {
+    min-width: 140px;
+}
+
+.header_menu a.active{
+    text-decoration: underline;
+}
+
+.bubbles i {
+    width: 9px;
+    height: 9px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    margin: 0 9px;
+  }
+
+  .bubbles i.active {
+    background: #dedede;
+
+  }
+
+  .navigation {
+    vertical-align: text-top;
+    line-height: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .offer{
+    position: relative;
+  }
+  .offer::before{
+    content: '';
+    width: 92px;
+    border: 1px solid #E3B873;
+    position: absolute;
+    right: 70px;
+    bottom: 25%;
+  }
