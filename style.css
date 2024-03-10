@@ -7,6 +7,8 @@ body {
     display: flex;
     padding: 107px;
     gap: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header_menu {
@@ -22,15 +24,19 @@ body {
     font-size: 14px;
     font-family: "Yeseva One";
     line-height: 20px;
+    cursor: pointer;
 }
 
 .main_blog__images {
     width: 679px;
     height: 480px;
 }
-.main_blog__text{
+
+.main_blog__text {
     position: relative;
+    max-width: 442px;
 }
+
 .main_blog__text h1 {
     color: #E3B873;
     text-transform: uppercase;
@@ -38,7 +44,7 @@ body {
     font-size: 27px;
     font-family: "Yeseva One";
     line-height: 38px;
-    
+
 }
 
 .main_blog__text p {
@@ -77,7 +83,7 @@ body {
     min-width: 140px;
 }
 
-.header_menu a.active{
+.header_menu a.active {
     text-decoration: underline;
 }
 
@@ -90,28 +96,35 @@ body {
     background: rgba(255, 255, 255, 0.3);
     display: inline-block;
     margin: 0 9px;
-  }
+    cursor: pointer;
+}
 
-  .bubbles i.active {
+.bubbles i.active {
     background: #dedede;
 
-  }
+}
 
-  .navigation {
+.navigation {
     vertical-align: text-top;
     line-height: 10px;
     position: absolute;
     bottom: 0;
-  }
+}
 
-  .offer{
+.offer {
     position: relative;
-  }
-  .offer::before{
+}
+
+.offer::before {
     content: '';
     width: 92px;
     border: 1px solid #E3B873;
     position: absolute;
     right: 70px;
     bottom: 25%;
-  }
+}
+
+.navigation .prev,
+.navigation .next {
+    cursor: pointer;
+}
